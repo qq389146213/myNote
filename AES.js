@@ -8,17 +8,6 @@
  
 <body> 
 <script type="text/javascript"> 
-        if(typeof FileReader == 'undefined'){ 
-            var div=document.getElementById("dd"); 
-            div.innerHTML='你的浏览器不支持FileReader接口！'; 
-            document.getElementById("file").setAttribute("disabled","disabled"); 
-            document.getElementById("filea").setAttribute("disabled","disabled"); 
-            document.getElementById("fileb").setAttribute("disabled","disabled"); 
-        } 
- 
- 
-         
- 
 // This is not really a random number generator object, and two SeededRandom 
 // objects will conflict with one another, but it's good enough for generating  
 // the rsa key. 
